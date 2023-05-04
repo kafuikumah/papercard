@@ -2,9 +2,9 @@
 
 ## Authors
 
-- [Kafui Kumah](https://kafuikumah.com)
+- [Kafui Kumah](https://github.com/kafuikumah)
 
-- [Hilary Kodji](https://gh.linkedin.com/in/hilary-kodji-690797156)
+- [Hilary Kodji](https://github.com/k-hn)
 
 ## TECH STACK USED
 
