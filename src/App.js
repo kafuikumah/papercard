@@ -1,11 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import './components/Navigation';
+import Navigation from './components/Navigation';
+import Waitlist from './components/Waitlist';
 
-function Hero() {
-  return <h1>PaperCard Waitlist</h1>;
-}
+
+
 function App() {
-  return <Hero />;
+  return (
+    <Navigation />
+  );
 }
 
 export default App;
