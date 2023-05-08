@@ -7,7 +7,7 @@ import Waitlist from './components/Waitlist';
 
 function App() {
   return (
-    <Navigation />
+    <Waitlist heroText="This application does things" buttonType="join the waitlist" />
   );
 }
 

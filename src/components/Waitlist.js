@@ -1,7 +1,8 @@
 import React from "react";
 
-function Waitlist() {
-    return <h1>Waitlist UI</h1>;
+function Waitlist(props) {
+    console.log(props);
+    return <h1>Waitlist, {props.heroText}, {props.buttonType}</h1>;
 }
 
 export default Waitlist;
