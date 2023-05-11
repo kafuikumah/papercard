@@ -4,8 +4,8 @@ import '../styles/Waitlist.css'
 function Waitlist(props) {
     console.log(props);
     return (
-        <div>
-            <div>
+        <div className="heroSection">
+           <div>
                 <h1 className="waitlist-heading">{props.heroHeading}</h1>
             </div>
             

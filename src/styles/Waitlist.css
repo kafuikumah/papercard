@@ -1,28 +1,50 @@
 /* WAITLIST CSS PROPERTIES */
+ .heroSection {
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+
+    position: absolute;
+    width: 80%;
+    height: 350px;
+    top: 20%;
+
+    }
 
   .waitlist-heading {
     text-align: center;
-    width: 60%;
+    width: 100%;
     margin: auto;
     margin-bottom: 30px;
   }
   .waitlist-sub-heading {
     text-align: center;
-    width: 60%;
+    width: 70%;
     margin: auto;
     margin-bottom: 40px;
   }
   .waitlist-button {
-    display: block;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 50px;
     margin-left: auto;
     margin-right: auto;
+
     width: 50%;
+    height: 60px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
   }
   button {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: auto;
     width: 30%;
+    height: 30px;
     border-radius: 40px;
-    
   }
