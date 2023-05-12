@@ -44,7 +44,7 @@ function Navigation() {
         </nav>
 
         {/* <!-- xs to lg --> */}
-        <nav class="pt-4 pb-6 bg-white border border-gray-200 rounded-full shadow-md lg:hidden">
+        <nav class="pt-4 pb-6 bg-white border border-gray-200 rounded-md shadow-md lg:hidden">
             <div class="flow-root">
                 <div class="flex flex-col px-6 -my-2 space-y-1">
                     <a href="#" title="" class="inline-flex py-2 text-base font-medium text-black transition-all duration-200"> <Mail color="black" size={20} strokeWidth={1} /> </a>
