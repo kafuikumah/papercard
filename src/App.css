@@ -6,12 +6,3 @@
   height: 40vmin;
   pointer-events: none;
 }
-
-body {
-  margin: 0;
-}
-
-.container {
-  margin: auto;
-  width: 80%;
-}

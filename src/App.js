@@ -22,6 +22,8 @@ function App() {
         learnMoreButton="Learn More"
       /> */}
 
+      <Waitlist/>
+
 
       <Footer />
 
