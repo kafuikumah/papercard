@@ -3,25 +3,25 @@ import '../styles/Waitlist.css'
 import { useState } from 'react'
 
 function Waitlist(props) {
-    console.log(props);
-    return (
-        // <div className="heroSection">
-        //    <div>
-        //         <h1 className="waitlist-heading">{props.heroHeading}</h1>
-        //     </div>
-            
-        //     <div>
-        //         <h2 className="waitlist-sub-heading">
-        //             {props.heroDescription}
-        //         </h2>
-        //     </div>
+  console.log(props);
+  return (
+    // <div className="heroSection">
+    //    <div>
+    //         <h1 className="waitlist-heading">{props.heroHeading}</h1>
+    //     </div>
 
-        //     <div className="waitlist-button">
-        //         <button type="button">{props.joinWaitlistButton}</button>
-        //         <button type="button">{props.learnMoreButton}</button>
-        //     </div>
-    
-        // </div>
+    //     <div>
+    //         <h2 className="waitlist-sub-heading">
+    //             {props.heroDescription}
+    //         </h2>
+    //     </div>
+
+    //     <div className="waitlist-button">
+    //         <button type="button">{props.joinWaitlistButton}</button>
+    //         <button type="button">{props.learnMoreButton}</button>
+    //     </div>
+
+    // </div>
 
     <div className="bg-white">
       <div className="relative isolate px-6 pt-14 lg:px-8">
@@ -38,22 +38,13 @@ function Waitlist(props) {
           />
         </div>
         <div className="mx-auto max-w-2xl py-20">
-          <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-            <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-              Announcing our next round of funding.{' '}
-              <a href="#" className="font-semibold text-indigo-600">
-                <span className="absolute inset-0" aria-hidden="true" />
-                Read more <span aria-hidden="true">&rarr;</span>
-              </a>
-            </div>
-          </div>
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
               The Ultimate Tech Career Starter Pack
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-            We are building a tech career toolbox filled with resources to help tech professionals 
-            who are new, old or freelancers to get their documents and career progression right!
+              We are building a tech career toolbox filled with resources to help tech professionals
+              who are new, old or freelancers to get their documents and career progression right!
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
@@ -82,8 +73,8 @@ function Waitlist(props) {
         </div>
       </div>
     </div>
-  
-    );
+
+  );
 }
 
 export default Waitlist;
