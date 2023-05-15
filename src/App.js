@@ -1,6 +1,5 @@
 import './App.css';
 import Footer from './components/Footer';
-import './components/Navigation';
 import Navigation from './components/Navigation';
 import Waitlist from './components/Waitlist';
 
