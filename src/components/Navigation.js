@@ -14,7 +14,7 @@ function Navigation() {
             <div class="flex-shrink-0">
               <a href="#" title="" class="flex items-center">
                 <img class="w-auto h-8 lg:h-10 rounded-lg" src="https://kafuikumah.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F3133635b-9b3f-4ad6-948e-129581470a11%2FLogo_Dark.png?id=18c753e4-1e2c-4d0c-b317-3099ab9b97d4&table=collection&spaceId=93a5260c-c2c0-4327-a2a2-12b3692c0cc9&width=60&userId=&cache=v2" alt="" />
-                <label class="ml-5px"> papercard.co  </label>
+                <label class="ml-1">papercard.co</label>
               </a>
             </div>
 
