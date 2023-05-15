@@ -8,8 +8,8 @@ import Waitlist from './components/Waitlist';
 
 function App() {
   return (
-    
-    <div className='container'>
+
+    <div className='container mx-auto'>
 
       <Navigation />
 
@@ -22,7 +22,7 @@ function App() {
         learnMoreButton="Learn More"
       /> */}
 
-      <Waitlist/>
+      <Waitlist />
 
 
       <Footer />
