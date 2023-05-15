@@ -2,6 +2,7 @@ import './App.css';
 import Footer from './components/Footer';
 import Navigation from './components/Navigation';
 import Waitlist from './components/Waitlist';
+import Card from './components/Card';
 
 
 
@@ -23,7 +24,7 @@ function App() {
 
       <Waitlist />
 
-
+      <Card />
       <Footer />
 
     </div>
