@@ -1,6 +1,6 @@
 # PAPERCARD DOCUMENTATION
 
-## Authors
+## AUTHORS
 
 - [Kafui Kumah](https://github.com/kafuikumah)
 
