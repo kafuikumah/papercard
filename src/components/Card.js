@@ -1,7 +1,7 @@
 function Card() {
   return (
     <div className="mx-auto max-w-2xl">
-      <div className=" ">
+      <div className="bg-black ">
       <div className="text-center">
         <h1 className="text-4xl font-bold tracking-tight text-black sm:text-6xl">
           Your Tech Career Roadmap</h1>
