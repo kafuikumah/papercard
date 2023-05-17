@@ -1,10 +1,11 @@
 function Card() {
   return (
     <div className="mx-auto max-w-2xl">
-      <div className="">
+      <div className=" ">
       <div className="text-center">
-        <h1 className="text-3xl">Your Tech Career Roadmap</h1>
-        <p>
+        <h1 className="text-4xl font-bold tracking-tight text-black sm:text-6xl">
+          Your Tech Career Roadmap</h1>
+        <p className="mt-10 text-lg leading-8 text-gray-600">
           Confused on how to get started in tech or what to learn?
           We are curated a roadmap for developers,
           product designers, data scientists, etc.
