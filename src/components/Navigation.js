@@ -40,7 +40,16 @@ function Navigation() {
               <a href="#" title="" class="text-base font-medium text-black transition-all duration-200"> <Instagram color="black" size={20} strokeWidth={1} /> </a>
             </div>
 
-            <a href="#" title="" class="items-center justify-center hidden px-4 py-3 ml-10 text-base font-semibold text-white transition-all duration-200 bg-[#606060] border border-transparent rounded-full lg:inline-flex hover:bg-[#27272a] focus:bg-[#27272a]" role="button"> Join the Waitlist </a>
+            <a 
+            href="https://forms.gle/MfMULh7Uyikv54Ao7" target="_blank"
+            title="" 
+            class="items-center justify-center hidden px-4 py-3 ml-10 text-base 
+            font-semibold text-white transition-all duration-200 bg-[#606060] 
+            border border-transparent rounded-full lg:inline-flex hover:bg-[#27272a] 
+            focus:bg-[#27272a]" role="button">
+               Join the Waitlist 
+            </a>
+            
           </nav>
 
           {/* <!-- xs to lg --> */}
@@ -58,7 +67,14 @@ function Navigation() {
             </div>
 
             <div class="px-6 mt-6">
-              <a href="#" title="" class="inline-flex justify-center px-4 py-3 text-base font-semibold text-white transition-all duration-200 bg-[#606060] border border-transparent rounded-full tems-center hover:bg-[#27272a] focus:bg-[#27272a]" role="button"> Join the Waitlist </a>
+              <a 
+              href="https://forms.gle/MfMULh7Uyikv54Ao7" target="_blank"
+              title=""
+              class="inline-flex justify-center px-4 py-3 text-base font-semibold
+              text-white transition-all duration-200 bg-[#606060] border border-transparent 
+              rounded-full tems-center hover:bg-[#27272a] focus:bg-[#27272a]" role="button"> 
+              Join the Waitlist 
+              </a>
             </div>
           </nav>
         </div>
