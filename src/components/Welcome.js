@@ -17,9 +17,9 @@ function Welcome(props) {
              old or freelancers to get their documents and career progression right!
             </p>
             
-            {/* <label className="mt-6 text-lg leading-8 text-gray-600">
-            <a href="#"> Share this website to help others <Share color="black" size={20} strokeWidth={1} /> </a>
-            </label> */}
+            <p className="mt-6 text-lg leading-8 text-gray-600">
+            Share this website to help others <span> < Share color="black" size={20} strokeWidth={1} /> </span> 
+            </p>
 
           </div>
     </div>
