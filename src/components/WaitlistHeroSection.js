@@ -2,7 +2,7 @@ import React from "react";
 import '../styles/Waitlist.css'
 import { useState } from 'react'
 
-function Waitlist(props) {
+function WaitlistHeroSection(props) {
   console.log(props);
   return (
     // <div className="heroSection">
@@ -52,4 +52,4 @@ function Waitlist(props) {
   );
 }
 
-export default Waitlist;
+export default WaitlistHeroSection;
