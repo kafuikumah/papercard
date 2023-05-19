@@ -1,8 +1,8 @@
-import './App.css';
-import Footer from './components/Footer';
-import Navigation from './components/Navigation';
-import Waitlist from './components/Waitlist';
-import Card from './components/Card';
+import '../styles/App.css';
+import Footer from '../components/Footer';
+import Navigation from '../components/Navigation';
+import WaitlistHeroSection from '../components/WaitlistHeroSection';
+import Card from '../components/Card';
 
 const WAITLISTCARD = [
   {header:"Your Tech Career Roadmap", paragraph:"Confused on how to get started in tech or what to learn. We are curating a raodmap for developers, product designers, data scientists, etc."},
@@ -13,7 +13,7 @@ const WAITLISTCARD = [
   {header:"Tech Communities", paragraph:"Join various tech communities to grow your network. Share your work, meet new poeple or assist others as an active member of these awesome tech communities around the world."},
 ]
 
-function App() {
+function Waitlist() {
 
   const waitlistCards = WAITLISTCARD.map(entry => <Card header={entry.header} paragraph={entry.paragraph}/>)
 
@@ -23,7 +23,7 @@ function App() {
 
       <Navigation />
 
-      <Waitlist />
+      <WaitlistHeroSection />
 
       {waitlistCards}
       
@@ -35,4 +35,4 @@ function App() {
 
 }
 
-export default App;
+export default Waitlist;
