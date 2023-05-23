@@ -1,6 +1,6 @@
 import React from "react";
 import '../styles/Waitlist.css'
-import { Share } from 'lucide-react';
+// import { Share } from 'lucide-react';
 
 function Welcome(props) {
   console.log(props);
@@ -17,9 +17,9 @@ function Welcome(props) {
              old or freelancers to get their documents and career progression right!
             </p>
             
-            <p className="mt-6 text-lg leading-8 text-gray-600">
+            {/* <p className="mt-6 text-lg leading-8 text-gray-600">
             Share this website to help others <span> < Share color="black" size={20} strokeWidth={1} /> </span> 
-            </p>
+            </p> */}
 
           </div>
     </div>
