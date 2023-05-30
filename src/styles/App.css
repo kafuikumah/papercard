@@ -101,5 +101,14 @@
   border: solid;
   border-color: rgb(189, 189, 189);
   border-width: 0.5px;
-  width: 300px;
+  width: 100%;
+}
+
+/* LINK CARD STYLING */
+.link-card {
+  height: inherit;
+  border: solid;
+  border-color: black;
+  box-shadow: #7198ff;
+  height: 80px;
 }
