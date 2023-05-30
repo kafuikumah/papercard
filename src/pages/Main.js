@@ -4,13 +4,14 @@ import Navigation from "../components/Navigation";
 import Welcome from "../components/Welcome";
 import Tile from "../components/Tile";
 import Block from "../components/Block";
+import NavigationSearch from "../components/NavigationSearch";
 
 function Main() {
   return (
     <div className="container mx-auto">
       <Navigation />
       <Welcome />
-
+      <NavigationSearch />
       <Tile
         emoji="🛣"
         title="Tech Career Roadmap"
