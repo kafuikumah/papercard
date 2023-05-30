@@ -5,6 +5,7 @@ import Welcome from "../components/Welcome";
 import Tile from "../components/Tile";
 import Block from "../components/Block";
 import NavigationSearch from "../components/NavigationSearch";
+import NavigationAccordion from "../components/NavigationAccordion";
 
 function Main() {
   return (
@@ -12,13 +13,13 @@ function Main() {
       <Navigation />
       <Welcome />
       <NavigationSearch />
+      <NavigationAccordion />
       <Tile
         emoji="🛣"
         title="Tech Career Roadmap"
         tag="Upcoming"
         paragraph="Pursue your career in tech with actionable steps from newbie to pro, with tips for steady growth."
       />
-
       <Block />
 
       <Footer />
