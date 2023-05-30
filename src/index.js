@@ -4,11 +4,14 @@ import "./index.css";
 import Main from "./pages/Main";
 import Waitlist from "./pages/Waitlist";
 import reportWebVitals from "./reportWebVitals";
+import { ChakraProvider } from "@chakra-ui/react";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Main />
+    <ChakraProvider>
+      <Main />
+    </ChakraProvider>
   </React.StrictMode>
 );
 
