@@ -1,33 +1,32 @@
 .App {
   text-align: center;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
- .black-background {
+.black-background {
   background-color: black;
   padding: 50px;
   margin-top: 30px;
- }
+}
 
-
- /* TILE STYLING */
- .tile {
+/* TILE STYLING */
+.tile {
   padding: 20px;
   width: 300px;
   height: 400px;
   box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.07);
   border-radius: 30px;
   margin-bottom: 20px;
- }
+}
 
- .tile-emoji {
+.tile-emoji {
   font-size: 80px;
   margin-top: 20px;
- }
+}
 
 .tile-title {
   margin-bottom: 5px;
@@ -46,12 +45,12 @@
 
   width: 60px;
 
-  background: #7198FF;
+  background: #7198ff;
   border-radius: 4px;
 
   text-transform: uppercase;
 
-  color: #FFFFFF;
+  color: #ffffff;
 
   font-size: 9px;
 }
@@ -59,9 +58,9 @@
 /* BLOCK STYLING */
 
 .block {
-  background-color: #EFEFEF;
+  background-color: #efefef;
   border-radius: 17px;
-  box-shadow: 0px, 0px 20px 20px #EFEFEF;
+  box-shadow: 0px, 0px 20px 20px #efefef;
   padding: 20px;
   height: 200px;
   width: 350px;
