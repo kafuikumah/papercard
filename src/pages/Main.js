@@ -19,7 +19,6 @@ function Main() {
       <Tile
         emoji="🛣"
         title="Tech Career Roadmap"
-        tag="Upcoming"
         paragraph="Pursue your career in tech with actionable steps from newbie to pro, with tips for steady growth."
       />
       <Block />
