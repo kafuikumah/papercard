@@ -7,7 +7,6 @@ import {
   Box,
   Link,
 } from "@chakra-ui/react";
-import { Laptop } from "lucide-react";
 
 function NavigationAccordion() {
   return (
