@@ -8,12 +8,10 @@ function Welcome(props) {
     <div className="bg-white">
       <div className="mx-auto pt-20">
         <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-          Hi there! 👋
+          {props.heading}
         </h1>
         <p className="mt-6 text-lg leading-8 text-gray-600">
-          We are building a tech career toolbox filled with resources to help
-          tech professionals who are new, old or freelancers to get their
-          documents and career progression right!
+          {props.paragraph}
         </p>
       </div>
     </div>

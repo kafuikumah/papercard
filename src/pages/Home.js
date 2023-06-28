@@ -12,7 +12,12 @@ function Home() {
           <SideNavigation />
         </div>
         <div className="main-content col-span-3">
-          <Welcome />
+          <Welcome
+            heading="Hi there!👋"
+            paragraph="We are building a tech career toolbox filled with resources to help
+          tech professionals who are new, old or freelancers to get their
+          documents and career progression right!"
+          />
           <div className="tile-section grid grid-cols-3 gap-10">
             <Tile
               emoji="🛣"

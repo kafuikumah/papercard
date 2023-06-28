@@ -1,12 +1,9 @@
 import "../styles/App.css";
 import Footer from "../components/Footer";
 import Navigation from "../components/Navigation";
-import Welcome from "../components/Welcome";
-import Tile from "../components/Tile";
-import Block from "../components/Block";
-import LinkCard from "../components/LinkCard";
-import SideNavigation from "../components/SideNavigation";
 import Home from "./Home";
+import { Routes, Route } from "react-router-dom";
+import TechCareerRoadmap from "./TechCareerRoadmap";
 
 function Main() {
   return (
@@ -14,6 +11,11 @@ function Main() {
       <Navigation />
       <Home />
       <Footer />
+
+      <Routes>
+        {/* <Route path="/" element={<Home />} /> */}
+        <Route path="/career-road-maps" element={<TechCareerRoadmap />} />
+      </Routes>
     </div>
   );
 }

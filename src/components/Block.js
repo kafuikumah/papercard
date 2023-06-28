@@ -1,14 +1,11 @@
-function Block() {
+function Block(props) {
   return (
-    <div className="block">
+    <div className="block mt-10">
       <div className="block-container">
         <div className="block-frame">
           <div className="block-text">
-            <h3> Developer Tools and Resources </h3>
-            <p>
-              These tools and resources have been recommended by many developers
-              ccross the world
-            </p>
+            <h3> {props.heading} </h3>
+            <p>{props.paragraph}</p>
           </div>
           <a
             href="#"
