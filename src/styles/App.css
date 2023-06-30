@@ -16,11 +16,9 @@
 /* TILE STYLING */
 .tile {
   padding: 20px;
-  width: 300px;
   height: 400px;
-  box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.07);
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.07);
   border-radius: 30px;
-  margin-bottom: 20px;
 }
 
 .tile-emoji {
@@ -62,8 +60,6 @@
   border-radius: 17px;
   box-shadow: 0px, 0px 20px 20px #efefef;
   padding: 20px;
-  height: 200px;
-  width: 350px;
 }
 
 .block-text {
@@ -83,6 +79,7 @@
 /* NAVIGATION SEARCH BAR STYLING */
 .search-bar {
   position: relative;
+  margin-bottom: 20px;
 }
 
 .search-bar .search-icon {
@@ -111,4 +108,9 @@
   border-color: black;
   box-shadow: #7198ff;
   height: 80px;
+}
+
+/* SIDE NAVIGATION BAR */
+.side-bar {
+  padding-top: 5rem;
 }

@@ -1,30 +1,26 @@
 import "../styles/App.css";
 import Footer from "../components/Footer";
 import Navigation from "../components/Navigation";
-import Welcome from "../components/Welcome";
-import Tile from "../components/Tile";
-import Block from "../components/Block";
-import NavigationSearch from "../components/NavigationSearch";
-import NavigationAccordion from "../components/NavigationAccordion";
-import LinkCard from "../components/LinkCard";
+import Home from "./Home";
+import { Routes, Route } from "react-router-dom";
+import TechCareerRoadmap from "./TechCareerRoadmap";
+import UltimateDocuments from "./UltimateDocuments";
 
 function Main() {
   return (
     <div className="container mx-auto">
       <Navigation />
-      <Welcome />
-      <NavigationSearch />
-      <NavigationAccordion />
-      <LinkCard />
-      <Tile
-        emoji="🛣"
-        title="Tech Career Roadmap"
-        tag="Upcoming"
-        paragraph="Pursue your career in tech with actionable steps from newbie to pro, with tips for steady growth."
-      />
-      <Block />
-
+      <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <Home />
+        <TechCareerRoadmap />
+        <UltimateDocuments />
+      </div>
       <Footer />
+
+      <Routes>
+        {/* <Route path="/" element={<Home />} /> */}
+        <Route path="/career-road-maps" element={<TechCareerRoadmap />} />
+      </Routes>
     </div>
   );
 }

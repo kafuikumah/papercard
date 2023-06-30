@@ -1,7 +1,9 @@
+import StatusToggler from "./StatusToggler";
+
 function Tile(props) {
   return (
-    <div className="mx-auto max-w-2xl py-20">
-      <div className="tile mb-10">
+    <div className="mx-auto max-w-2xl">
+      <div className="tile mt-10">
         <div className="tile-emoji tile-icon">
           <label>{props.emoji}</label>
         </div>
@@ -10,11 +12,7 @@ function Tile(props) {
           <h2>{props.title}</h2>
         </div>
 
-        <div className="tile-tag">
-          <div>
-            <label className="tag-label">{props.tag}</label>
-          </div>
-        </div>
+        <StatusToggler />
 
         <div className="tile-paragraph">
           <div>
