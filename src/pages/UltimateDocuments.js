@@ -31,11 +31,8 @@ function UltimateDocuments() {
   return (
     <div className="">
       <div className="nav"></div>
-      <div className="container grid grid-cols-4 gap-10">
-        <div className="side bar col-span-1">
-          <SideNavigation />
-        </div>
-        <div className="main-content col-span-3">
+      <div className="container">
+        <div className="main-content">
           <Welcome
             heading="Ultimate Documents"
             paragraph="Curated professional documents at your disposal for your projects."

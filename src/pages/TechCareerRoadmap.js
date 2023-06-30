@@ -48,11 +48,11 @@ function TechCareerRoadmap() {
   return (
     <div className="">
       <div className="nav"></div>
-      <div className="container grid grid-cols-4 gap-10">
-        <div className="side bar col-span-1">
+      <div className="container">
+        {/* <div className="side bar col-span-1">
           <SideNavigation />
-        </div>
-        <div className="main-content col-span-3">
+        </div> */}
+        <div className="main-content">
           <Welcome
             heading="Tech Career Roadmap"
             paragraph="Select your tech role and explore the steps it takes to get started and grow."

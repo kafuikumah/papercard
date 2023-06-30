@@ -40,6 +40,12 @@ const HOMECARD = [
     paragraph:
       "Join various tech communities to grow your network. Share your work,  meet new poeple, assist others as an active member of these tech communities around the world.",
   },
+  {
+    emoji: "🤖",
+    heading: "AI Tools",
+    paragraph:
+      "Explore AI Tools in various categories and leverage them to increase productivity adn improve your efficiency while savign a ton of time.",
+  },
 ];
 
 function Home() {
@@ -54,18 +60,18 @@ function Home() {
   return (
     <div className="">
       <div className="nav"></div>
-      <div className="container grid grid-cols-4 gap-10">
-        <div className="side bar col-span-1">
+      <div className="container">
+        {/* <div className="side bar col-span-1">
           <SideNavigation />
-        </div>
-        <div className="main-content col-span-3">
+        </div> */}
+        <div className="main-content">
           <Welcome
             heading="Hi there!👋"
             paragraph="We are building a tech career toolbox filled with resources to help
           tech professionals who are new, old or freelancers to get their
           documents and career progression right!"
           />
-          <div className="tile-section grid grid-cols-3 gap-10">
+          <div className="tile-section grid grid-cols-3 gap-16">
             {homeCards}
           </div>
         </div>
